@@ -44,7 +44,7 @@ require_once '../includes/header.php';
       <div class="card-title" style="color:#0d6efd;"><i class="fa-solid fa-user-plus me-2"></i>Register New Doctor</div>
       <div class="card-subtitle">Fill in all fields to add a new doctor.</div>
     </div>
-    <a href="/hospital/doctors/index.php" class="btn btn-sm btn-light"><i class="fa-solid fa-arrow-left me-1"></i> Back</a>
+    <a href="/hospital/src/doctors/index.php" class="btn btn-sm btn-light"><i class="fa-solid fa-arrow-left me-1"></i> Back</a>
   </div>
   <div class="card-body p-4">
     <form method="POST" novalidate>
@@ -102,7 +102,7 @@ require_once '../includes/header.php';
 
       </div>
       <div class="d-flex justify-content-end gap-2 mt-4 pt-3 border-top">
-        <a href="/hospital/doctors/index.php" class="btn btn-light">Cancel</a>
+        <a href="/hospital/src/doctors/index.php" class="btn btn-light">Cancel</a>
         <button type="submit" class="btn btn-primary px-4"><i class="fa-solid fa-floppy-disk me-1"></i> Register Doctor</button>
       </div>
     </form>

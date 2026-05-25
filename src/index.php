@@ -30,13 +30,13 @@ require_once 'includes/header.php';
 <!-- Stat Cards -->
 <div class="row g-3 mb-4">
   <div class="col-sm-6 col-xl-3">
-    <a href="/hospital/doctors/index.php" class="stat-card">
+    <a href="/hospital/src/doctors/index.php" class="stat-card">
       <div class="stat-icon" style="background:#dbeafe;"><i class="fa-solid fa-user-doctor" style="color:#1d4ed8;"></i></div>
       <div><div class="stat-value"><?= $stats['total_doctors'] ?></div><div class="stat-label">Total Doctors</div></div>
     </a>
   </div>
   <div class="col-sm-6 col-xl-3">
-    <a href="/hospital/patients/index.php" class="stat-card">
+    <a href="/hospital/src/patients/index.php" class="stat-card">
       <div class="stat-icon" style="background:#d1fae5;"><i class="fa-solid fa-hospital-user" style="color:#065f46;"></i></div>
       <div><div class="stat-value"><?= $stats['total_patients'] ?></div><div class="stat-label">Total Patients</div></div>
     </a>
@@ -48,7 +48,7 @@ require_once 'includes/header.php';
     </a>
   </div>
   <div class="col-sm-6 col-xl-3">
-    <a href="/hospital/appointments/index.php" class="stat-card">
+    <a href="/hospital/src/appointments/index.php" class="stat-card">
       <div class="stat-icon" style="background:#fef9c3;"><i class="fa-solid fa-clock" style="color:#854d0e;"></i></div>
       <div><div class="stat-value"><?= $stats['pending'] ?></div><div class="stat-label">Pending Appointments</div></div>
     </a>

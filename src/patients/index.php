@@ -30,7 +30,7 @@ require_once '../includes/header.php';
       <div class="card-title"><i class="fa-solid fa-hospital-user text-primary me-2"></i>Patient Registry</div>
       <div class="card-subtitle">Register, manage and search patient records</div>
     </div>
-    <a href="/hospital/patients/create.php" class="btn btn-primary btn-sm px-3"><i class="fa-solid fa-plus me-1"></i> Add New Patient</a>
+    <a href="/hospital/src/patients/create.php" class="btn btn-primary btn-sm px-3"><i class="fa-solid fa-plus me-1"></i> Add New Patient</a>
   </div>
   <div class="filter-bar">
     <form method="GET" class="row g-2">

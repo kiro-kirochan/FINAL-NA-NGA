@@ -44,7 +44,7 @@ require_once '../includes/header.php';
       <div class="card-title" style="color:#0d6efd;"><i class="fa-solid fa-user-plus me-2"></i>Register New Patient</div>
       <div class="card-subtitle">Fill in all required fields to register a patient.</div>
     </div>
-    <a href="/hospital/patients/index.php" class="btn btn-sm btn-light"><i class="fa-solid fa-arrow-left me-1"></i> Back</a>
+    <a href="/hospital/src/patients/index.php" class="btn btn-sm btn-light"><i class="fa-solid fa-arrow-left me-1"></i> Back</a>
   </div>
   <div class="card-body p-4">
     <form method="POST" novalidate>

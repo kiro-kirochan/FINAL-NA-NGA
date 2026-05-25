@@ -31,7 +31,7 @@ require_once '../includes/header.php';
       <div class="card-title"><i class="fa-solid fa-user-doctor text-primary me-2"></i>Medical Staff Directory</div>
       <div class="card-subtitle">Create, read, update and delete doctor profiles</div>
     </div>
-    <a href="/hospital/doctors/create.php" class="btn btn-primary btn-sm px-3"><i class="fa-solid fa-plus me-1"></i> Add New Doctor</a>
+    <a href="/hospital/src/doctors/create.php" class="btn btn-primary btn-sm px-3"><i class="fa-solid fa-plus me-1"></i> Add New Doctor</a>
   </div>
   <div class="filter-bar">
     <form method="GET" class="row g-2">
@@ -77,7 +77,7 @@ require_once '../includes/header.php';
           <td class="text-muted"><?= date('M j, Y', strtotime($doc['created_at'])) ?></td>
           <td class="text-end pe-4">
             <div class="d-inline-flex gap-1">
-              <a href="/hospital/doctors/edit.php?id=<?= $doc['id'] ?>" class="btn btn-sm btn-outline-primary"><i class="fa-solid fa-pencil"></i></a>
+              <a href="/hospital/src/doctors/edit.php?id=<?= $doc['id'] ?>" class="btn btn-sm btn-outline-primary"><i class="fa-solid fa-pencil"></i></a>
               <button class="btn btn-sm btn-outline-danger" data-delete-url="/hospital/doctors/delete.php?id=<?= $doc['id'] ?>" data-delete-name="<?= htmlspecialchars($doc['name']) ?>"><i class="fa-solid fa-trash-can"></i></button>
             </div>
           </td>

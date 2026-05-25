@@ -55,7 +55,7 @@ require_once '../includes/header.php';
       <div class="card-title" style="color:#0d6efd;"><i class="fa-solid fa-user-pen me-2"></i>Edit Doctor Profile</div>
       <div class="card-subtitle">Update doctor information below.</div>
     </div>
-    <a href="/hospital/doctors/index.php" class="btn btn-sm btn-light"><i class="fa-solid fa-arrow-left me-1"></i> Back</a>
+    <a href="/hospital/src/doctors/index.php" class="btn btn-sm btn-light"><i class="fa-solid fa-arrow-left me-1"></i> Back</a>
   </div>
   <div class="card-body p-4">
     <form method="POST" novalidate>

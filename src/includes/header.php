@@ -87,10 +87,10 @@ body{font-family:'Outfit',sans-serif;background:#f0f4f8;color:#2b3a4a;margin:0}
   </div>
   <div class="sidebar-nav">
     <div class="nav-label">Main Menu</div>
-    <a href="/hospital/index.php"              class="<?= $activePage==='dashboard'    ?'active':'' ?>"><i class="fa-solid fa-gauge"></i> Dashboard</a>
-    <a href="/hospital/doctors/index.php"      class="<?= $activePage==='doctors'      ?'active':'' ?>"><i class="fa-solid fa-user-doctor"></i> Doctors</a>
-    <a href="/hospital/patients/index.php"     class="<?= $activePage==='patients'     ?'active':'' ?>"><i class="fa-solid fa-hospital-user"></i> Patients</a>
-    <a href="/hospital/appointments/index.php" class="<?= $activePage==='appointments' ?'active':'' ?>"><i class="fa-solid fa-calendar-check"></i> Appointments</a>
+    <a href="/hospital/src/index.php"              class="<?= $activePage==='dashboard'    ?'active':'' ?>"><i class="fa-solid fa-gauge"></i> Dashboard</a>
+    <a href="/hospital/src/doctors/index.php"      class="<?= $activePage==='doctors'      ?'active':'' ?>"><i class="fa-solid fa-user-doctor"></i> Doctors</a>
+    <a href="/hospital/src/patients/index.php"     class="<?= $activePage==='patients'     ?'active':'' ?>"><i class="fa-solid fa-hospital-user"></i> Patients</a>
+    <a href="/hospital/src/appointments/index.php" class="<?= $activePage==='appointments' ?'active':'' ?>"><i class="fa-solid fa-calendar-check"></i> Appointments</a>
   </div>
   <div style="padding:16px 20px;border-top:1px solid rgba(255,255,255,0.08);">
     <div style="font-size:0.72rem;color:rgba(255,255,255,0.3);">Web Systems &amp; Technologies<br>Final Project — A.Y. 2025-2026</div>

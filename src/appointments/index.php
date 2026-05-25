@@ -40,7 +40,7 @@ require_once '../includes/header.php';
       <div class="card-title"><i class="fa-solid fa-calendar-check text-primary me-2"></i>Appointment Management</div>
       <div class="card-subtitle">Book, view, update and cancel appointments</div>
     </div>
-    <a href="/hospital/appointments/create.php" class="btn btn-primary btn-sm px-3"><i class="fa-solid fa-plus me-1"></i> New Appointment</a>
+    <a href="/hospital/src/appointments/create.php" class="btn btn-primary btn-sm px-3"><i class="fa-solid fa-plus me-1"></i> New Appointment</a>
   </div>
   <div class="filter-bar">
     <form method="GET" class="row g-2">

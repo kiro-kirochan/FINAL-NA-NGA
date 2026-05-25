@@ -58,7 +58,7 @@ require_once '../includes/header.php';
       <div class="card-title" style="color:#0d6efd;"><i class="fa-solid fa-calendar-pen me-2"></i>Edit Appointment</div>
       <div class="card-subtitle">Update appointment details below.</div>
     </div>
-    <a href="/hospital/appointments/index.php" class="btn btn-sm btn-light"><i class="fa-solid fa-arrow-left me-1"></i> Back</a>
+    <a href="/hospital/src/appointments/index.php" class="btn btn-sm btn-light"><i class="fa-solid fa-arrow-left me-1"></i> Back</a>
   </div>
   <div class="card-body p-4">
     <form method="POST" novalidate>

@@ -105,7 +105,7 @@ require_once '../includes/header.php';
         <div class="col-md-6">
           <label class="form-label">Consultation Fee (₱) <span class="text-danger">*</span></label>
           <div class="input-group">
-            <span class="input-group-text"><i class="fa-solid fa-dollar-sign text-muted"></i></span>
+            <span class="input-group-text"><i class="fa-solid fa-peso-sign text-muted"></i></span>
             <input type="number" name="docFees" step="0.01" min="0" class="form-control <?= isset($errors['docFees'])?'is-invalid':'' ?>" value="<?= htmlspecialchars($form['docFees']) ?>">
             <?php if (isset($errors['docFees'])): ?><div class="invalid-feedback"><?= $errors['docFees'] ?></div><?php endif; ?>
           </div>

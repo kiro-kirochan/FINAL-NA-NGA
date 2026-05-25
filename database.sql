@@ -1,9 +1,5 @@
 -- ============================================================
 -- Hospital Management System (HMS) — Database Setup
--- Project: FINAL-BOSS-LEGIT
--- Rebuilt from: kishan0725/Hospital-Management-System
--- Stack: HTML + Bootstrap 5 + PHP + MySQL
--- Author: kiro-kirochan
 -- ============================================================
 
 CREATE DATABASE IF NOT EXISTS `hospital`

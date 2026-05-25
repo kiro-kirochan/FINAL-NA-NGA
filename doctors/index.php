@@ -73,7 +73,7 @@ require_once '../includes/header.php';
             </div>
           </td>
           <td><span class="badge rounded-pill bg-primary-subtle text-primary border border-primary-subtle px-3 py-1"><?= htmlspecialchars($doc['specialization']) ?></span></td>
-          <td class="fw-semibold">$<?= number_format($doc['docFees'],2) ?></td>
+          <td class="fw-semibold">₱<?= number_format($doc['docFees'],2) ?></td>
           <td class="text-muted"><?= date('M j, Y', strtotime($doc['created_at'])) ?></td>
           <td class="text-end pe-4">
             <div class="d-inline-flex gap-1">
